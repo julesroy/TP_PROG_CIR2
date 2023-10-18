@@ -1,0 +1,201 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Exo2",
+					"jsonFile" : "directory-Exo2-Debug-778db7d704af2aee82fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exo2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Exo3",
+					"jsonFile" : "directory-Exo3-Debug-9d245eec0e04f038b5cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exo3",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Exo4",
+					"jsonFile" : "directory-Exo4-Debug-8cb50d21a221452d086b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exo4",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "exo5_exe",
+					"jsonFile" : "directory-exo5_exe-Debug-9f49e7556e6307fbb83a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo5_exe",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "exo6",
+					"jsonFile" : "directory-exo6-Debug-1a221a9464c2fcbdc679.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo6",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "exo7",
+					"jsonFile" : "directory-exo7-Debug-223cdd86b34929ed9402.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo7",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "TP1-CIR2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "exo2_exe::@c6adb6c7f18f3dc03a81",
+					"jsonFile" : "target-exo2_exe-Debug-cccc9412b34372a77f6d.json",
+					"name" : "exo2_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "exo3_exe::@f192fb444d5529c5c826",
+					"jsonFile" : "target-exo3_exe-Debug-ff2f3e233f8c4590bbb2.json",
+					"name" : "exo3_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "exo4_exe::@efe9d6d9f1eab6e3da13",
+					"jsonFile" : "target-exo4_exe-Debug-919bc4b99cb8f8031216.json",
+					"name" : "exo4_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exo5_exe::@cd7032d4ca690a9997ee",
+					"jsonFile" : "target-exo5_exe-Debug-d33c88ad74c02d49925d.json",
+					"name" : "exo5_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "exo6::@de6544e501e02fe5241a",
+					"jsonFile" : "target-exo6-Debug-c5e19bb6d3d038eacb8b.json",
+					"name" : "exo6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "exo7::@1bd8a20b529f55abc15e",
+					"jsonFile" : "target-exo7-Debug-5ff83791bfd51bfca0b1.json",
+					"name" : "exo7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/julesr0y/Repos/TP1-CIR2/cmake-build-debug",
+		"source" : "/home/julesr0y/Repos/TP1-CIR2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
