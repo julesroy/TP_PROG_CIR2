@@ -30,6 +30,47 @@ void Vecteur::sontEgaux(Vecteur& v1, Vecteur& v2) {
     }
 }
 
+float Vecteur::get_x() {
+    return x;
+}
+
+float Vecteur::get_y() {
+    return y;
+}
+
+void Polygone::set_points() {
+    Vecteur a, b, c;
+    a.set_vecteur();
+    b.set_vecteur();
+    c.set_vecteur();
+    points[0] = a;
+    points[1] = b;
+    points[2] = c;
+}
+
+void Polygone::afficher_points() {
+    for (int i = 0; i < 3; i++) {
+        cout << "x = " << points[i].get_x() << ", y = " << points[i].get_y() << endl;
+    }
+}
+
+void Polygone::area() {
+    float somme = 0.0;
+    for (int i = 0; i < 3; i++) {
+        if (i < 2) {
+            somme += ((points[i].get_x() * points[i + 1].get_y()) - (points[i + 1].get_x() * points[i].get_y()));
+        }
+        else {
+            somme += ((points[i].get_x() * points[0].get_y()) - (points[0].get_x() * points[i].get_y()));
+        }
+    }
+    float calc = 0.5 * (somme);
+    cout << "Aire = " << calc << endl;
+}
+
 int main(){
+    Polygone p;
+    p.set_points();
+    p.area();
     return 0;
 }
