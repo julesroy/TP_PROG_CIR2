@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug"
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/julesr0y/Repos/TP4_Prog-CIR2"
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "TP4_Prog_CIR2"
+			"value" : "TP4"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,6 +1126,30 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "TP4_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug"
+		},
+		{
+			"name" : "TP4_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
 			"name" : "TP4_Prog_CIR2_BINARY_DIR",
 			"properties" : 
 			[
@@ -1135,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug"
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug"
 		},
 		{
 			"name" : "TP4_Prog_CIR2_IS_TOP_LEVEL",
@@ -1159,7 +1183,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/julesr0y/Repos/TP4_Prog-CIR2"
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4"
+		},
+		{
+			"name" : "TP4_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/julesr0y/Repos/TP_PROG_CIR2/TP4"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

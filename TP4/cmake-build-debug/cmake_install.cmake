@@ -1,4 +1,4 @@
-# Install script for directory: /home/julesr0y/Repos/TP4_Prog-CIR2
+# Install script for directory: /home/julesr0y/Repos/TP_PROG_CIR2/TP4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,18 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug/exo1/cmake_install.cmake")
-endif()
+  # Include the install script for each subdirectory.
+  include("/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug/exo1/cmake_install.cmake")
+  include("/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug/exo2/cmake_install.cmake")
+  include("/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug/exo3/cmake_install.cmake")
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug/exo2/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug/exo3/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: TP4_Prog_CIR2
+# Project: TP4
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -80,7 +80,7 @@ rule CXX_EXECUTABLE_LINKER__exo3_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/julesr0y/Repos/TP4_Prog-CIR2 -B/home/julesr0y/Repos/TP4_Prog-CIR2/cmake-build-debug
+  command = /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/julesr0y/Repos/TP_PROG_CIR2/TP4 -B/home/julesr0y/Repos/TP_PROG_CIR2/TP4/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/julesr0y/Repos/TP4_Prog-CIR2/exo2
+# Install script for directory: /home/julesr0y/Repos/TP_PROG_CIR2/TP4/exo2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
