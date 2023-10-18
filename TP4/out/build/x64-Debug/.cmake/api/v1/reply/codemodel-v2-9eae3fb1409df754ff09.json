@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "exo1",
+					"jsonFile" : "directory-exo1-Debug-83e7fdbf81a0ea579a86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "exo2",
+					"jsonFile" : "directory-exo2-Debug-9e6e73835c768907a860.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "exo3",
+					"jsonFile" : "directory-exo3-Debug-9b415ca3b4fdbd8fc078.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "exo4",
+					"jsonFile" : "directory-exo4-Debug-532f43ded32e3666017e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exo4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "TP4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "exo1::@acf1987dcf78f933f694",
+					"jsonFile" : "target-exo1-Debug-64d0dcb66527352cc152.json",
+					"name" : "exo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "exo2::@8e0ef2c91cec2f4253a6",
+					"jsonFile" : "target-exo2-Debug-e18977e3cb9569ff1437.json",
+					"name" : "exo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "exo3::@320c748ffa17a640c38a",
+					"jsonFile" : "target-exo3-Debug-f8e1191c33b667a9ff3a.json",
+					"name" : "exo3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exo4::@05b3ba11173cfc1bd2cf",
+					"jsonFile" : "target-exo4-Debug-20455a84bce6b92faaf3.json",
+					"name" : "exo4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jules/ISEN/TP_PROG_CIR2/TP4/out/build/x64-Debug",
+		"source" : "C:/Users/jules/ISEN/TP_PROG_CIR2/TP4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
