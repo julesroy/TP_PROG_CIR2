@@ -1,17 +1,24 @@
-//
-// Created by julesr0y on 14/10/23.
-//
-
-#ifndef TP4_PROG_CIR2_EXO3_HPP
-#define TP4_PROG_CIR2_EXO3_HPP
-class Vecteur{
+class Point2D {
 private:
-    float x;
-    float y;
+    float p_x;
+    float p_y;
 public:
-    void set_vecteur();
-    void somme(Vecteur &v1, Vecteur &v2);
-    void produit(int reel);
-    void sontEgaux(Vecteur &v1, Vecteur &v2);
+    void set_point();
+    float get_x();
+    float get_y();
+    void get_point();
 };
-#endif //TP4_PROG_CIR2_EXO3_HPP
+
+class Vecteur {
+private:
+    float v_x;
+    float v_y;
+public:
+    void set_vecteur(Point2D p1, Point2D p2);
+    void somme(Vecteur& v1, Vecteur& v2);
+    void produit(int reel);
+    void sontEgaux(Vecteur& v1, Vecteur& v2);
+    float get_x();
+    float get_y();
+    void get_vecteur();
+};
