@@ -1,1 +1,0 @@
-add_executable(exo1 exo1.cpp)

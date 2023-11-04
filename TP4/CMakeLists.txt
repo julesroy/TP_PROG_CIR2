@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.9)
-project(TP4)
-add_subdirectory(exo1)
-add_subdirectory(exo2)
-add_subdirectory(exo3)
-add_subdirectory(exo4)
