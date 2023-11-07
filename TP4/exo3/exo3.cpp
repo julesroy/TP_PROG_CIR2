@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 #include "exo3.hpp"
+#include <vector>
 
 //Point2D
 void Point2D::set_point() {
@@ -70,4 +71,25 @@ int main() {
     v3.somme(v1, v2);
     v1.produit(2);
     v3.sontEgaux(v1, v2);
+
+
+
+    int n = 10;
+    vector<int> tab(n);
+    for (int i = 0; i < n; i++)
+    {
+        tab[i] = i;
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cout << tab[i] << "||";
+    }
+
+    n = 5;
+    vector<int> tab2(n);
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << tab2[i] << "||";
+    }
 }
