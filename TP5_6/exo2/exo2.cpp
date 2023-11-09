@@ -3,10 +3,7 @@ using namespace std;
 #include "exo2.hpp"
 
 Fraction::Fraction() {
-	//cout << "Numerateur" << endl;
-	//cin >> num;
-	//cout << "Denominateur" << endl;
-	//cin >> den;
+
 }
 
 Fraction::Fraction(int n1, int n2) {
@@ -16,6 +13,14 @@ Fraction::Fraction(int n1, int n2) {
 
 void Fraction::print() {
 	cout << num << "/" << den << endl;
+}
+
+void Fraction::setNum(int n1) {
+	num = n1;
+}
+
+void Fraction::setDen(int n2) {
+	den = n2;
 }
 
 //+
@@ -127,17 +132,34 @@ bool Fraction::operator<=(const Fraction& other) {
 	return (this->num * other.den <= this->den * other.num);
 }
 
+//<<
+ostream& operator<<(ostream& os, const Fraction& other) {
+	os << other.num << "/" << other.den << endl;
+	return os;
+}
+
+//>>
+istream& operator>>(istream& is, Fraction& other) {
+	int num, den;
+	is >> num >> den;
+	other.setNum(num);
+	other.setDen(den);
+	return is;
+}
+
 int main()
 {
 	Fraction f1(1, 2);
 	Fraction f2(1, 3);
-	cout << "f1: "; f1.print();
-	cout << "f2: "; f2.print();
+	int n = 5;
+	cout << f1;
+	/*cout << "f1: "; f1.print();
+	cout << "f2: "; f2.print();*/
 
-	if (f1 >= f2) {
-		cout << "vrai" << endl;
-	}
-	else {
-		cout << "faux" << endl;
-	}
+	//if (f1 == f2) {
+	//	cout << "vrai" << endl;
+	//}
+	//else {
+	//	cout << "faux" << endl;
+	//}
 }

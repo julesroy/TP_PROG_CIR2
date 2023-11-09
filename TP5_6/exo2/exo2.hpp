@@ -1,3 +1,5 @@
+using namespace std;
+
 class Fraction {
 private:
 	int num;
@@ -7,6 +9,8 @@ public:
 	Fraction();
 	Fraction(int, int);
 	void print();
+	void setNum(int);
+	void setDen(int);
 	Fraction operator+(const Fraction&);
 	Fraction operator+(const int&);
 	Fraction operator-(const Fraction&);
@@ -22,4 +26,6 @@ public:
 	bool operator<(const Fraction& other);
 	bool operator>=(const Fraction& other);
 	bool operator<=(const Fraction& other);
+	friend ostream& operator<<(ostream& os, const Fraction& other);
+	friend istream& operator>>(istream& is, const Fraction& other);
 };
