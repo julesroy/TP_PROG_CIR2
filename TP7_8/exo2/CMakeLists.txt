@@ -1,1 +1,1 @@
-add_executable(exo2 exo2.cpp)
+add_executable(exo2 exo2.cpp "fraction.cpp")

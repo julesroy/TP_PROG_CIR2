@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <numeric>
 using namespace std;
-#include "exo2.hpp"
+#include "fraction.hpp"
 
 Fraction::Fraction() {
 
@@ -104,17 +104,17 @@ Fraction Fraction::operator/(const int& i) {
 //+=
 Fraction Fraction::operator+=(const Fraction& other)
 {
-	cout << "Fraction / Fraction" << endl;
+	cout << "Fraction += Fraction" << endl;
 	//Fraction result;
 	this->num = this->num * other.den + this->den * other.num;
 	this->den = this->den * other.den;
-	return *this; // peut être simplifié
+	return this->simplifier(); // peut être simplifié
 };
 
 Fraction Fraction::operator+=(const int& i) {
 	this->num = this->num + this->den * i;
 	this->den = this->den;
-	return *this;
+	return this->simplifier();
 }
 
 //==
@@ -155,13 +155,4 @@ istream& operator>>(istream& is, Fraction& other) {
 	other.setNum(num);
 	other.setDen(den);
 	return is;
-}
-
-int main()
-{
-	Fraction f1(1, 4);
-	Fraction f2(1, 4);
-	Fraction f3;
-	f3 = f1 + f2;
-	cout << f3;
 }
